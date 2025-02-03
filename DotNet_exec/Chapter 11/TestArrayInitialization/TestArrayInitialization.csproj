@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.50727</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{6DA6C1E6-1DF1-4CCA-9004-745671AD52EB}</ProjectGuid>
+    <ProjectGuid>{F3BCD15C-D957-4368-954F-788739C9634F}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>FourthProgram</RootNamespace>
-    <AssemblyName>FourthProgram</AssemblyName>
+    <RootNamespace>TestArrayInitialization</RootNamespace>
+    <AssemblyName>TestArrayInitialization</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -37,6 +37,9 @@
   </Target>
   -->
   <ItemGroup>
-    <Compile Include="FourthProgram.cs" />
+    <Compile Include="TestArrayInitialization.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
   </ItemGroup>
 </Project>

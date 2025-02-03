@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.50727</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{CD870CBD-DA1E-42F9-93A7-D194449E2842}</ProjectGuid>
+    <ProjectGuid>{02D1FFEE-BD5C-46AC-A6FE-61D37441D476}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ThirdProgram</RootNamespace>
-    <AssemblyName>ThirdProgram</AssemblyName>
+    <RootNamespace>PassArrayByReference</RootNamespace>
+    <AssemblyName>PassArrayByReference</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -37,6 +37,6 @@
   </Target>
   -->
   <ItemGroup>
-    <Compile Include="ThirdProgram.cs" />
+    <Compile Include="PassArrayByReference.cs" />
   </ItemGroup>
 </Project>
