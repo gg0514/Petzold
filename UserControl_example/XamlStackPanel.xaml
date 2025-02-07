@@ -5,7 +5,9 @@
             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
 
-    <Button HorizontalAlignment="Center" Margin="24">
+    <Button HorizontalAlignment="Center" 
+            Margin="24"
+            Click="Button_Click">
         Hello, XAML!
     </Button>
 

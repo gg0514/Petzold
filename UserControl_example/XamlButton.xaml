@@ -4,6 +4,7 @@
 <Button x:Class="CMPARK.XamlExam.XamlButton"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Foreground="LightSeaGreen" FontSize="24pt">
-    Hello, XAML!
+        Foreground="LightSeaGreen" FontSize="24pt"
+        Click="Button_Click">
+    Hello, World!
 </Button>
