@@ -1,0 +1,9 @@
+﻿<!-- =================================================
+      CenteredButton.xaml (c) 2006 by Charles Petzold
+     ================================================= -->
+<Button x:Class="CMPARK.XamlExam.CenteredButton"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"        
+        HorizontalAlignment="Center"
+        VerticalAlignment="Center"
+        Margin="12" />
