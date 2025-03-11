@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Resource Include="Images/CopyHS.png" />
+    <Resource Include="Images/CutHS.png" />
+    <Resource Include="Images/DeleteHS.png" />
+    <Resource Include="Images/PasteHS.png" />
+    <Resource Include="Images/NewDocumentHS.png" />
+    <Resource Include="Images/OpenHS.png" />
+    <Resource Include="Images/PrintHS.png" />
+    <Resource Include="Images/saveHS.png" />
+    <Resource Include="Images/ItalicHS.png" />
+    <Resource Include="Images/Edit_UndoHS.png" />
+    <Resource Include="Images/Edit_RedoHS.png" />
+    <Resource Include="Images/Color_fontHS.png" />
+    <Resource Include="Images/boldHS.png" />
+    <Resource Include="Images/ColorHS.png" />
+  </ItemGroup>
+
+</Project>
